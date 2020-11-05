@@ -32,7 +32,8 @@ const init = function () {
     player1El.classList.remove('player--winner');
     player0El.classList.add('player--active');
     player1El.classList.remove('player--active');
-    document.querySelector(`.winner--${activePlayer}`).textContent = "Hey I am Winner";
+    document.querySelector('.winner--0').textContent = "";
+    document.querySelector('.winner--1').textContent = "";
 }
 init();
 
