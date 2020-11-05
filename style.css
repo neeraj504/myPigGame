@@ -23,6 +23,13 @@ body {
   align-items: center;
   justify-content: center;
 }
+.game_head{
+position: absolute;
+z-index: 1;
+font-size: 40px;
+top: 2px;
+color: darkslategray;
+}
 
 /* LAYOUT */
 main {
