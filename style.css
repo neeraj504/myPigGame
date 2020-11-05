@@ -23,7 +23,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.game_head{
+.game-head{
 position: absolute;
 z-index: 1;
 font-size: 40px;
